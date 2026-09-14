@@ -1,0 +1,17 @@
+"./src/device.obj"
+"./src/dsp.obj"
+"./src/f28p55x_codestartbranch.obj"
+"./src/f28p55x_defaultisr.obj"
+"./src/f28p55x_globalvariabledefs.obj"
+"./src/f28p55x_piectrl.obj"
+"./src/f28p55x_pievect.obj"
+"./src/f28p55x_sysctrl.obj"
+"./src/f28p55x_usdelay.obj"
+"./src/hal.obj"
+"./src/main.obj"
+"./src/rf_model.obj"
+"../28p55x_generic_flash_lnk.cmd"
+"../f28p55x_headers_nonBIOS.cmd"
+-llibc.a
+-ldriverlib.lib
+-lc28x_fpu_dsp_library_eabi.lib

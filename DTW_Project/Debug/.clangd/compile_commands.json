@@ -1,0 +1,32 @@
+[
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/arc_detection.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/device.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/dsp_fft.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\"",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/f28p55x_codestartbranch.asm"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/hal_c2000.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/DTW_Project/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/DTW_Project\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/DTW_Project/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/DTW_Project/src/main.c"
+   }
+]

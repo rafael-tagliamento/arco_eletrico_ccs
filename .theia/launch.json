@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RandomForest_ArcDetection",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "RandomForest_ArcDetection",
+                "resourceId": "/RandomForest_ArcDetection"
+            }
+        },
+        {
+            "name": "DTW_Project",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "DTW_Project",
+                "resourceId": "/DTW_Project"
+            }
+        }
+    ]
+}

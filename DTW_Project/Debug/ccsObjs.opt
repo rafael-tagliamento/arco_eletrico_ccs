@@ -1,0 +1,10 @@
+"./src/arc_detection.obj"
+"./src/device.obj"
+"./src/dsp_fft.obj"
+"./src/f28p55x_codestartbranch.obj"
+"./src/hal_c2000.obj"
+"./src/main.obj"
+"../28p55x_generic_flash_lnk.cmd"
+-llibc.a
+-ldriverlib.lib
+-lc28x_fpu_dsp_library_eabi.lib

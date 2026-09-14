@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/dsp_maxidx_DP_RV_2.c \
+C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/golden.c \
+C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/input.c 
+
+C_DEPS += \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/dsp_maxidx_DP_RV_2.d \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/golden.d \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/input.d 
+
+OBJS += \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/dsp_maxidx_DP_RV_2.obj \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/golden.obj \
+./FPU/c28/examples/vector/maxidx_DP_RV_2/input.obj 
+
+OBJS__QUOTED += \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\dsp_maxidx_DP_RV_2.obj" \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\golden.obj" \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\input.obj" 
+
+C_DEPS__QUOTED += \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\dsp_maxidx_DP_RV_2.d" \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\golden.d" \
+"FPU\c28\examples\vector\maxidx_DP_RV_2\input.d" 
+
+C_SRCS__QUOTED += \
+"C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/dsp_maxidx_DP_RV_2.c" \
+"C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/golden.c" \
+"C:/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/examples/vector/maxidx_DP_RV_2/input.c" 
+
+

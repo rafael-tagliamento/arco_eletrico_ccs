@@ -1,0 +1,62 @@
+[
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/device.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\"",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_codestartbranch.asm"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_defaultisr.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_globalvariabledefs.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_piectrl.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_pievect.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_sysctrl.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\"",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/f28p55x_usdelay.asm"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/main.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/rf_model.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/dsp.c"
+   },
+   {
+      "directory" : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug",
+      "command"   : "clang++ -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/include\" -I\"/home/mati23b/Apps_folders/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/libraries/dsp/FPU/c28/include/fpu32\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/common/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/device_support/f28p55x/headers/include\" -I\"/home/mati23b/ti/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib\" -I\"/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/syscfg\" -xc",
+      "file"      : "/home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/src/hal.c"
+   }
+]
