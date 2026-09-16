@@ -132,7 +132,7 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@$(MAKE) --no-print-directory -Onone "DTW_Project.out"
 
 dependents:
-	-cd /home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug && $(MAKE) all
+	-cd /home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug && $(MAKE) clean all
 
 # Tool invocations
 DTW_Project.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS) /home/mati23b/workspace_ccstheia/RandomForest_ArcDetection/Debug/RandomForest_ArcDetection.out

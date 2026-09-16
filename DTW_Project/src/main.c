@@ -42,10 +42,10 @@ void main(void) {
     Interrupt_register(INT_TIMER0, &timer0_arco_isr);
     Interrupt_enable(INT_TIMER0);
 
-    // Inicializa��o da parte de processamento de sinal
+    // Inicializacao da parte de processamento de sinal
     DSP_Init();
 
-    // Configura��es de Hardware
+    // Configuracoes de Hardware
     HAL_Configurar_ADC();
     HAL_Configurar_ePWM_Trigger();
     HAL_Configurar_DMA();

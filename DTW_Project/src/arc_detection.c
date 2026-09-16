@@ -3,9 +3,6 @@
 #include <stdint.h>
 #include <math.h>
 
-#define DTW_THRESHOLD 38.17f
-#define DTW_WINDOW 6
-
 // Buffer circular para manter o hist�rico recente das energias calculadas
 static float rolling_buffer[TEMPLATE_LENGTH] = {0};
 
@@ -17,8 +14,8 @@ float dsp_steady_ref = 0.0f;
 uint16_t calib_count = 0;
 
 
-/*Processo necess�rio para tirar o offset e focar na morfologia,
- * o que � essencial para o caso de m�dulos fotovoltacos */
+/*Processo necessario para tirar o offset e focar na morfologia,
+ * o que e essencial para o caso de modulos fotovoltacos */
 void Normalizacao_Z(const float* input, float* output, int len) {
     float sum = 0.0f, sq_sum = 0.0f;
     int i;
@@ -34,7 +31,7 @@ void Normalizacao_Z(const float* input, float* output, int len) {
     // Calcula o inverso do desvio padrao uma unica vez fora do loop
     float inv_std_dev = 1.0f / (sqrtf(sq_sum / len) + 1e-6f);
 
-    // Usa multiplica��o ao inv�s da divis�o para reduzir ciclos da FPU
+    // Usa multiplicacao ao inves da divisao para reduzir ciclos da FPU
     for(i = 0; i < len; i++) {
         output[i] = (input[i] - mean) * inv_std_dev;
     }
@@ -54,7 +51,7 @@ float Inferencia_DTW(const float* buffer_atual, const float* template_arr, float
 
     cost_prev[0] = fabsf(buffer_atual[0] - template_arr[0]);
 
-    // Calcula a primeira linha restrita � janela
+    // Calcula a primeira linha restrita a janela
     for(j = 1; j <= DTW_WINDOW; j++) {
         cost_prev[j] = cost_prev[j-1] + fabsf(buffer_atual[0] - template_arr[j]);
     }
@@ -85,7 +82,7 @@ float Inferencia_DTW(const float* buffer_atual, const float* template_arr, float
             }
         }
 
-        // Se o m�nimo at� o momento passar o limiar, j� abandona
+        // Se o minimo ate o momento passar o limiar, ja abandona
         if (min_line_cost > max_threshold) {
             return max_threshold + 1.0f; // Aborta
         }
@@ -115,7 +112,7 @@ int Process_Arc_Detection_Pipeline(float new_energy_val) {
     // Se a similaridade cair abaixo de 80%, roda o DTW
     if (similarity_ratio < 0.80f) {
 
-        // Aplica a normaliza��o
+        // Aplica a normalizacao
         Normalizacao_Z(rolling_buffer, norm_buffer, TEMPLATE_LENGTH);
 
         float dtw_distance = Inferencia_DTW(norm_buffer, arc_template, DTW_THRESHOLD);
@@ -128,14 +125,14 @@ int Process_Arc_Detection_Pipeline(float new_energy_val) {
 }
 
 int ArcDetection_Is_Calibrating(void) {
-    return (calib_count < 64) ? 1 : 0;
+    return (calib_count < TEMPLATE_LENGTH) ? 1 : 0;
 }
 
 void ArcDetection_Calibrate(float energia_atual) {
     dsp_steady_ref += energia_atual;
     int i;
 
-    // Alimenta o buffer mesmo durante a calibra��o
+    // Alimenta o buffer mesmo durante a calibracao
     for(i = 0; i < TEMPLATE_LENGTH - 1; i++) {
         rolling_buffer[i] = rolling_buffer[i+1];
     }
@@ -143,8 +140,8 @@ void ArcDetection_Calibrate(float energia_atual) {
 
     calib_count++;
 
-    // Ao atingir 64, finaliza a calibra��o tirando a m�dia
-    if (calib_count == 64) {
-        dsp_steady_ref /= 64.0f;
+    // Ao atingir TEMPLATE_LENGTH, finaliza a calibracao tirando a media
+    if (calib_count == TEMPLATE_LENGTH) {
+        dsp_steady_ref /= TEMPLATE_LENGTH.0f;
     }
 }

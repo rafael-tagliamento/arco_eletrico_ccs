@@ -3,9 +3,7 @@
 
 #include <stdint.h>
 
-#define N_FFT 256
-
-// Funções de Inicialização
+// Funcoes de Inicializacao
 void HAL_Configurar_ADC(void);
 void HAL_Configurar_ePWM_Trigger(void);
 void HAL_Configurar_DMA(void);

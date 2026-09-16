@@ -1,4 +1,5 @@
 #include "hal_c2000.h"
+#include "dtw_template.h"
 #include "driverlib.h"
 #include "device.h"
 
@@ -15,10 +16,10 @@ void HAL_Configurar_ePWM_Trigger(void) {
     // Desabilita o clock do ePWM temporariamente para configurar com seguran�a
     SysCtl_disablePeripheral(SYSCTL_PERIPH_CLK_TBCLKSYNC);
 
-    /* Configura o per�odo do timer para atingir  12.5 kHz
+    /* Configura o per�odo do timer para atingir  a FS
      * Em device.h, DEVICE_SYSCLK_FREQ = 75.000 kHz
-     * Logo, basta T = 75000/12,5 - 1 */
-    uint16_t pwm_period = 5999;
+     * Logo, basta T = 75000/FS - 1 */
+    uint16_t pwm_period = 75000/FS - 1;
     EPWM_setTimeBasePeriod(EPWM1_BASE, pwm_period);
     EPWM_setTimeBaseCounter(EPWM1_BASE, 0);
     EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_UP);
